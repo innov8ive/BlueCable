@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Sanjay\Publish\CablePublished" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Admin/MailSettingMainPage.aspx" publishTime="04/20/2014 21:32:27" />
+    <file relUrl="App_Themes/Theme1/StyleSheet.css" publishTime="02/23/2014 13:06:19" />
+    <file relUrl="App_Themes/Theme1/font.css" publishTime="04/08/2014 23:28:17" />
+    <file relUrl="App_Themes/Theme1/general.css" publishTime="04/08/2014 23:28:17" />
+    <file relUrl="Masters/Customers/CustomersMainPage.aspx" publishTime="06/20/2015 23:26:08" />
+    <file relUrl="Admin/Roles/blank.htm" publishTime="02/23/2014 11:53:44" />
+    <file relUrl="bin/HMSBL.pdb" publishTime="06/27/2015 20:36:31" />
+    <file relUrl="App_Themes/Theme1/fontIE.css" publishTime="04/08/2014 23:28:17" />
+    <file relUrl="bin/HMSDL.pdb" publishTime="06/27/2015 20:36:31" />
+    <file relUrl="Masters/Packages/PackageChannelsPage.aspx" publishTime="06/14/2015 14:49:58" />
+    <file relUrl="Admin/Roles/UserRole_MainPage.aspx" publishTime="02/23/2014 12:16:23" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="01/28/2014 22:59:46" />
+    <file relUrl="Masters/Customers/CustomerView.aspx" publishTime="06/21/2015 19:32:01" />
+    <file relUrl="Transactions/Bill/GenerateBill.aspx" publishTime="06/21/2015 11:23:14" />
+    <file relUrl="bin/HMSBL.dll" publishTime="06/27/2015 20:36:31" />
+    <file relUrl="Masters/Operators/OperatorsMainPage.aspx" publishTime="06/14/2015 09:47:02" />
+    <file relUrl="bin/HMSOM.pdb" publishTime="06/27/2015 20:32:46" />
+    <file relUrl="Masters/Operators/OperatorsList.aspx" publishTime="06/14/2015 09:53:51" />
+    <file relUrl="bin/Anthem.dll" publishTime="03/06/2014 22:03:34" />
+    <file relUrl="Masters/CollectionBoy/CBMainPage.aspx" publishTime="06/27/2015 22:03:01" />
+    <file relUrl="Admin/Users/User_MainPage.aspx" publishTime="06/27/2015 22:02:05" />
+    <file relUrl="image/working.gif" publishTime="06/14/2015 09:51:19" />
+    <file relUrl="AccessDenied.aspx" publishTime="04/20/2014 23:19:21" />
+    <file relUrl="bin/HMS.dll" publishTime="06/28/2015 00:05:46" />
+    <file relUrl="Reports/DataReport.aspx" publishTime="06/27/2015 20:19:16" />
+    <file relUrl="Libs/Anthem.dll" publishTime="03/06/2014 22:03:34" />
+    <file relUrl="Admin/Users/User_General.aspx" publishTime="06/14/2015 10:08:16" />
+    <file relUrl="Admin/Roles/UserRole_Perms.aspx" publishTime="02/23/2014 11:54:33" />
+    <file relUrl="Reports/OutstandingReport.aspx" publishTime="06/27/2015 20:22:11" />
+    <file relUrl="bin/HMS.pdb" publishTime="06/28/2015 00:05:46" />
+    <file relUrl="StyleSheet.css" publishTime="01/28/2014 23:19:22" />
+    <file relUrl="Transactions/Bill/ViewBill.aspx" publishTime="06/21/2015 18:28:45" />
+    <file relUrl="HMSHelper.asmx" publishTime="03/30/2014 17:36:09" />
+    <file relUrl="Transactions/Bill/PrintBill.aspx" publishTime="06/21/2015 18:04:29" />
+    <file relUrl="Masters/Packages/PackagesList.aspx" publishTime="06/14/2015 12:05:03" />
+    <file relUrl="Admin/Roles/RolesList.aspx" publishTime="02/23/2014 12:12:39" />
+    <file relUrl="Transactions/Bill/PendingBillList.aspx" publishTime="06/21/2015 19:20:14" />
+    <file relUrl="bin/SmartControls.dll" publishTime="04/03/2014 21:42:14" />
+    <file relUrl="js/Validation.js" publishTime="06/14/2015 08:49:46" />
+    <file relUrl="WebForm1.aspx" publishTime="11/09/2014 19:30:01" />
+    <file relUrl="bin/itextsharp.dll" publishTime="11/09/2014 19:28:53" />
+    <file relUrl="bin/HMSOM.dll" publishTime="06/27/2015 20:32:46" />
+    <file relUrl="Masters/Packages/ChannelSelector.aspx" publishTime="06/14/2015 13:34:13" />
+    <file relUrl="Masters/Packages/PackagesMainPage.aspx" publishTime="06/14/2015 13:11:56" />
+    <file relUrl="js/jquery-1.7.2.min.js" publishTime="01/31/2014 21:54:51" />
+    <file relUrl="Reports/CollectionReport.aspx" publishTime="06/27/2015 20:03:28" />
+    <file relUrl="Default.aspx" publishTime="01/28/2014 22:59:46" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="01/28/2014 22:59:46" />
+    <file relUrl="Libs/itextsharp.dll" publishTime="11/09/2014 19:28:53" />
+    <file relUrl="Login.aspx" publishTime="01/31/2014 23:34:57" />
+    <file relUrl="Libs/SmartControls.dll" publishTime="04/03/2014 21:42:14" />
+    <file relUrl="Masters/CollectionBoy/CBList.aspx" publishTime="06/20/2015 23:41:58" />
+    <file relUrl="Reports/Dashboard.aspx" publishTime="06/27/2015 18:32:12" />
+    <file relUrl="Admin/Users/User_Permission.aspx" publishTime="02/23/2014 12:22:50" />
+    <file relUrl="HomePage.aspx" publishTime="06/13/2015 19:08:16" />
+    <file relUrl="bin/HMSDL.dll" publishTime="06/27/2015 20:36:31" />
+    <file relUrl="Admin/Users/UsersList.aspx" publishTime="02/23/2014 12:37:16" />
+    <file relUrl="Masters/Customers/CustomersList.aspx" publishTime="06/21/2015 19:20:00" />
+    <file relUrl="Web.config" publishTime="06/27/2015 23:34:43" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="01/28/2014 22:59:46" />
+  </publishProfile>
+</publishData>

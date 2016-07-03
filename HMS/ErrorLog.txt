@@ -1,0 +1,7 @@
+Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at HMS.Common.SendMail(String toAddress, String subject, String body, String attachmentName, Byte[] attachmentBytes) in C:\Sanjay\Cable\HMS\AppCode\BasePage.cs:line 950Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at HMS.Common.SendMail(String toAddress, String subject, String body, String attachmentName, Byte[] attachmentBytes) in C:\Sanjay\Cable\HMS\AppCode\BasePage.cs:line 950The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at HMS.Common.SendMail(String toAddress, String subject, String body, String attachmentName, Byte[] attachmentBytes) in C:\Sanjay\Cable\HMS\AppCode\BasePage.cs:line 950

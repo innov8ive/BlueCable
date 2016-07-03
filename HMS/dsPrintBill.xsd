@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPrintBill" targetNamespace="http://tempuri.org/dsPrintBill.xsd" xmlns:mstns="http://tempuri.org/dsPrintBill.xsd" xmlns="http://tempuri.org/dsPrintBill.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="HMSConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="HMSConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.HMSConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VW_PrintBillTableAdapter" GeneratorDataComponentClassName="VW_PrintBillTableAdapter" Name="VW_PrintBill" UserDataComponentName="VW_PrintBillTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="HMSConnectionString (Web.config)" DbObjectName="Cable.dbo.VW_PrintBill" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CustomerID, UniqueID, Name, Address, CANNo, SmartCardNo, STBNo, BasicPrice, AddOnPrice, Outstanding, Discount, EntTax, NetBillAmount, BillID, ServiceTaxPerc, OperatorName, OPAddress, Contact, InterainmentTaxNo, NetworkName, PANCardNo, PostalLicenceNo, BillDate FROM dbo.VW_PrintBill</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CustomerID" DataSetColumn="CustomerID" />
+              <Mapping SourceColumn="UniqueID" DataSetColumn="UniqueID" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="Address" DataSetColumn="Address" />
+              <Mapping SourceColumn="CANNo" DataSetColumn="CANNo" />
+              <Mapping SourceColumn="SmartCardNo" DataSetColumn="SmartCardNo" />
+              <Mapping SourceColumn="STBNo" DataSetColumn="STBNo" />
+              <Mapping SourceColumn="BasicPrice" DataSetColumn="BasicPrice" />
+              <Mapping SourceColumn="AddOnPrice" DataSetColumn="AddOnPrice" />
+              <Mapping SourceColumn="Outstanding" DataSetColumn="Outstanding" />
+              <Mapping SourceColumn="Discount" DataSetColumn="Discount" />
+              <Mapping SourceColumn="EntTax" DataSetColumn="EntTax" />
+              <Mapping SourceColumn="NetBillAmount" DataSetColumn="NetBillAmount" />
+              <Mapping SourceColumn="BillID" DataSetColumn="BillID" />
+              <Mapping SourceColumn="ServiceTaxPerc" DataSetColumn="ServiceTaxPerc" />
+              <Mapping SourceColumn="OperatorName" DataSetColumn="OperatorName" />
+              <Mapping SourceColumn="OPAddress" DataSetColumn="OPAddress" />
+              <Mapping SourceColumn="Contact" DataSetColumn="Contact" />
+              <Mapping SourceColumn="InterainmentTaxNo" DataSetColumn="InterainmentTaxNo" />
+              <Mapping SourceColumn="NetworkName" DataSetColumn="NetworkName" />
+              <Mapping SourceColumn="PANCardNo" DataSetColumn="PANCardNo" />
+              <Mapping SourceColumn="PostalLicenceNo" DataSetColumn="PostalLicenceNo" />
+              <Mapping SourceColumn="BillDate" DataSetColumn="BillDate" />
+              <Mapping SourceColumn="BillMonth" DataSetColumn="BillMonth" />
+              <Mapping SourceColumn="ServiceTax" DataSetColumn="ServiceTax" />
+              <Mapping SourceColumn="PrevPaid" DataSetColumn="PrevPaid" />
+              <Mapping SourceColumn="DueDate" DataSetColumn="DueDate" />
+              <Mapping SourceColumn="Image1" DataSetColumn="Image1" />
+              <Mapping SourceColumn="Image3" DataSetColumn="Image3" />
+              <Mapping SourceColumn="Image2" DataSetColumn="Image2" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPrintBill" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dsPrintBill" msprop:Generator_UserDSName="dsPrintBill">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VW_PrintBill" msprop:Generator_TableClassName="VW_PrintBillDataTable" msprop:Generator_TableVarName="tableVW_PrintBill" msprop:Generator_RowChangedName="VW_PrintBillRowChanged" msprop:Generator_TablePropName="VW_PrintBill" msprop:Generator_RowDeletingName="VW_PrintBillRowDeleting" msprop:Generator_RowChangingName="VW_PrintBillRowChanging" msprop:Generator_RowEvHandlerName="VW_PrintBillRowChangeEventHandler" msprop:Generator_RowDeletedName="VW_PrintBillRowDeleted" msprop:Generator_RowClassName="VW_PrintBillRow" msprop:Generator_UserTableName="VW_PrintBill" msprop:Generator_RowEvArgName="VW_PrintBillRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CustomerID" msprop:Generator_ColumnVarNameInTable="columnCustomerID" msprop:Generator_ColumnPropNameInRow="CustomerID" msprop:Generator_ColumnPropNameInTable="CustomerIDColumn" msprop:Generator_UserColumnName="CustomerID" type="xs:int" />
+              <xs:element name="UniqueID" msprop:Generator_ColumnVarNameInTable="columnUniqueID" msprop:Generator_ColumnPropNameInRow="UniqueID" msprop:Generator_ColumnPropNameInTable="UniqueIDColumn" msprop:Generator_UserColumnName="UniqueID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="302" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="605" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CANNo" msprop:Generator_ColumnVarNameInTable="columnCANNo" msprop:Generator_ColumnPropNameInRow="CANNo" msprop:Generator_ColumnPropNameInTable="CANNoColumn" msprop:Generator_UserColumnName="CANNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SmartCardNo" msprop:Generator_ColumnVarNameInTable="columnSmartCardNo" msprop:Generator_ColumnPropNameInRow="SmartCardNo" msprop:Generator_ColumnPropNameInTable="SmartCardNoColumn" msprop:Generator_UserColumnName="SmartCardNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STBNo" msprop:Generator_ColumnVarNameInTable="columnSTBNo" msprop:Generator_ColumnPropNameInRow="STBNo" msprop:Generator_ColumnPropNameInTable="STBNoColumn" msprop:Generator_UserColumnName="STBNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BasicPrice" msprop:Generator_ColumnVarNameInTable="columnBasicPrice" msprop:Generator_ColumnPropNameInRow="BasicPrice" msprop:Generator_ColumnPropNameInTable="BasicPriceColumn" msprop:Generator_UserColumnName="BasicPrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AddOnPrice" msprop:Generator_ColumnVarNameInTable="columnAddOnPrice" msprop:Generator_ColumnPropNameInRow="AddOnPrice" msprop:Generator_ColumnPropNameInTable="AddOnPriceColumn" msprop:Generator_UserColumnName="AddOnPrice" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Outstanding" msprop:Generator_ColumnVarNameInTable="columnOutstanding" msprop:Generator_ColumnPropNameInRow="Outstanding" msprop:Generator_ColumnPropNameInTable="OutstandingColumn" msprop:Generator_UserColumnName="Outstanding" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Discount" msprop:Generator_ColumnVarNameInTable="columnDiscount" msprop:Generator_ColumnPropNameInRow="Discount" msprop:Generator_ColumnPropNameInTable="DiscountColumn" msprop:Generator_UserColumnName="Discount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EntTax" msprop:Generator_ColumnVarNameInTable="columnEntTax" msprop:Generator_ColumnPropNameInRow="EntTax" msprop:Generator_ColumnPropNameInTable="EntTaxColumn" msprop:Generator_UserColumnName="EntTax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NetBillAmount" msprop:Generator_ColumnVarNameInTable="columnNetBillAmount" msprop:Generator_ColumnPropNameInRow="NetBillAmount" msprop:Generator_ColumnPropNameInTable="NetBillAmountColumn" msprop:Generator_UserColumnName="NetBillAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BillID" msprop:Generator_ColumnVarNameInTable="columnBillID" msprop:Generator_ColumnPropNameInRow="BillID" msprop:Generator_ColumnPropNameInTable="BillIDColumn" msprop:Generator_UserColumnName="BillID" type="xs:int" />
+              <xs:element name="ServiceTaxPerc" msprop:Generator_ColumnVarNameInTable="columnServiceTaxPerc" msprop:Generator_ColumnPropNameInRow="ServiceTaxPerc" msprop:Generator_ColumnPropNameInTable="ServiceTaxPercColumn" msprop:Generator_UserColumnName="ServiceTaxPerc" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OperatorName" msprop:Generator_ColumnVarNameInTable="columnOperatorName" msprop:Generator_ColumnPropNameInRow="OperatorName" msprop:Generator_ColumnPropNameInTable="OperatorNameColumn" msprop:Generator_UserColumnName="OperatorName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OPAddress" msprop:Generator_ColumnVarNameInTable="columnOPAddress" msprop:Generator_ColumnPropNameInRow="OPAddress" msprop:Generator_ColumnPropNameInTable="OPAddressColumn" msprop:Generator_UserColumnName="OPAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Contact" msprop:Generator_ColumnVarNameInTable="columnContact" msprop:Generator_ColumnPropNameInRow="Contact" msprop:Generator_ColumnPropNameInTable="ContactColumn" msprop:Generator_UserColumnName="Contact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InterainmentTaxNo" msprop:Generator_ColumnVarNameInTable="columnInterainmentTaxNo" msprop:Generator_ColumnPropNameInRow="InterainmentTaxNo" msprop:Generator_ColumnPropNameInTable="InterainmentTaxNoColumn" msprop:Generator_UserColumnName="InterainmentTaxNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NetworkName" msprop:Generator_ColumnVarNameInTable="columnNetworkName" msprop:Generator_ColumnPropNameInRow="NetworkName" msprop:Generator_ColumnPropNameInTable="NetworkNameColumn" msprop:Generator_UserColumnName="NetworkName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PANCardNo" msprop:Generator_ColumnVarNameInTable="columnPANCardNo" msprop:Generator_ColumnPropNameInRow="PANCardNo" msprop:Generator_ColumnPropNameInTable="PANCardNoColumn" msprop:Generator_UserColumnName="PANCardNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PostalLicenceNo" msprop:Generator_ColumnVarNameInTable="columnPostalLicenceNo" msprop:Generator_ColumnPropNameInRow="PostalLicenceNo" msprop:Generator_ColumnPropNameInTable="PostalLicenceNoColumn" msprop:Generator_UserColumnName="PostalLicenceNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BillDate" msprop:Generator_ColumnVarNameInTable="columnBillDate" msprop:Generator_ColumnPropNameInRow="BillDate" msprop:Generator_ColumnPropNameInTable="BillDateColumn" msprop:Generator_UserColumnName="BillDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BillMonth" msprop:Generator_ColumnVarNameInTable="columnBillMonth" msprop:Generator_ColumnPropNameInRow="BillMonth" msprop:Generator_ColumnPropNameInTable="BillMonthColumn" msprop:Generator_UserColumnName="BillMonth" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ServiceTax" msprop:Generator_ColumnVarNameInTable="columnServiceTax" msprop:Generator_ColumnPropNameInRow="ServiceTax" msprop:Generator_ColumnPropNameInTable="ServiceTaxColumn" msprop:Generator_UserColumnName="ServiceTax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PrevPaid" msprop:Generator_ColumnVarNameInTable="columnPrevPaid" msprop:Generator_ColumnPropNameInRow="PrevPaid" msprop:Generator_ColumnPropNameInTable="PrevPaidColumn" msprop:Generator_UserColumnName="PrevPaid" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Image1" msprop:Generator_ColumnVarNameInTable="columnImage1" msprop:Generator_ColumnPropNameInRow="Image1" msprop:Generator_ColumnPropNameInTable="Image1Column" msprop:Generator_UserColumnName="Image1" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Image3" msprop:Generator_ColumnVarNameInTable="columnImage3" msprop:Generator_ColumnPropNameInRow="Image3" msprop:Generator_ColumnPropNameInTable="Image3Column" msprop:Generator_UserColumnName="Image3" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Image2" msprop:Generator_ColumnVarNameInTable="columnImage2" msprop:Generator_ColumnPropNameInRow="Image2" msprop:Generator_ColumnPropNameInTable="Image2Column" msprop:Generator_UserColumnName="Image2" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="DueDate" msprop:Generator_ColumnVarNameInTable="columnDueDate" msprop:Generator_ColumnPropNameInRow="DueDate" msprop:Generator_ColumnPropNameInTable="DueDateColumn" msprop:Generator_UserColumnName="DueDate" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

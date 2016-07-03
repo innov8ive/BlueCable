@@ -1,0 +1,260 @@
+﻿body, legend, table, div, p, a, span
+{ font-family:Calibri;font-size:10pt;}
+body
+{
+    font-family: Calibri;
+    background-color: #DCEEF4;
+	overflow:auto;
+}
+
+a:active
+{ 
+	color: #000000;
+}
+a:visited
+{ 
+	color: #000000;
+}
+.SGridHeader td
+{
+  border-right:solid 1px #DFDFDF;
+  padding-left:2px;
+  padding-right:2px;
+}
+.SGridHeader
+{
+	font-family:Arial;
+	font-size: 9pt;
+	line-height:16pt;
+	/*background-color:#507CD1; */
+	color:#000000;
+	font-weight:bold;
+	background-image: url('image/backline.jpg');
+	 background-repeat: repeat-x;
+}
+
+.SGridFooter
+{
+	font-family:Arial;
+	font-size:9pt;
+	background-color:#bbbbbb;
+	padding-left:2px;
+}
+
+.SGridPager
+{
+	font-family:Arial;
+	font-size:8pt;
+	text-align:left;
+}
+
+.SGridItem td
+{
+  border-bottom:solid 1px #DFDFDF;
+  border-right:solid 1px #DFDFDF;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  padding-left:2px;
+  padding-right:2px;
+}
+
+.SGridItem
+{
+	font-family: Arial;
+	font-size: 9pt;
+	white-space: inherit;
+	background-color: #f5f5f5;
+	line-height: 14pt; /*padding-left:10px;*/
+}
+
+.SGridSelectedItem td
+{
+  border-bottom:solid 1px #DFDFDF;
+  border-right:solid 1px #DFDFDF;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  padding-left:2px;
+  padding-right:2px;
+}
+.SGridSelectedItem
+{
+  font-family:Arial;
+  font-size:9pt;
+  white-space:inherit;
+  background-color:#BADDE9;
+  color:Black;
+  line-height:14pt;
+}
+
+/*On Hover on the List Display the Row Color*/
+.ListItemHoverCssClass
+{
+	background-color: #BADDE9;	
+}
+.SGridHoverItem
+        {
+            font-family: Arial;
+            font-size: 9pt;
+            background-color: #DCEEF4;
+            line-height: 14pt;
+        }
+        .SGridHoverItem td
+        {
+            border-bottom: solid 1px #DFDFDF;
+            border-right: solid 1px #DFDFDF;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-left: 2px;
+            padding-right: 2px;cursor:pointer;
+        }
+        .CMenuHoverItem
+        {
+            font-family: Arial;
+            font-size: 9pt;
+            background-color: blue;
+            color: White;
+        }
+        .conMenuItemHover
+        {
+            background-color: #79BED5;;
+            color: White;
+        }
+        .conMenuItem
+        {
+            background-color: White;
+            color: Black;
+        }
+         
+        .tlBar,.SGridFootr
+        {
+            background-image: url('Image/backline.jpg');
+            background-repeat: repeat-x;
+        }
+.CTextBox 
+{
+	font-size:8pt;
+	font-family:Verdana;
+	vertical-align:middle;
+	border:solid 1px #7F9DB9;
+    resize: none;
+}
+.CLabel
+{
+    font-family:Verdana;
+	font-size:8pt;	
+}
+.CButton
+{
+	 font-family:Verdana;
+	 font-size:8pt;
+	 height:23px;
+}
+.CLinkButtonBlue
+{
+	text-align: center; 
+	text-decoration:none;
+	color:Blue;
+} 
+.CLinkButtonBlack
+{
+	text-align: center; 
+	text-decoration:none;
+	color:Black;
+}
+.SGrid_Header
+{
+    font-family: Verdana;
+    font-size: 9pt;
+    xfont-weight: bold;
+    line-height: 15pt; /*background-image:url("Image/GridHeader.gif") ;*/
+    color: white;
+    vertical-align: middle;
+    background: #1B8383;
+  background-image: -webkit-linear-gradient(top, #1B8383, #156161);
+  background-image: -moz-linear-gradient(top, #1B8383, #156161);
+  background-image: -ms-linear-gradient(top, #1B8383, #156161);
+  background-image: -o-linear-gradient(top, #1B8383, #156161);
+  background-image: linear-gradient(to bottom, #1B8383, #156161);
+    
+}
+.SGrid_Header td
+{
+  border-right:solid 1px #DFDFDF;
+  padding-left:2px;
+  padding-right:2px;
+}
+.toolTip {
+    background-color: lightgoldenrodyellow;
+    border: solid 1px black;
+}
+.SGrid
+{
+    border: 1px solid #999966;
+}
+.rangePicker {
+      background-color: #C9C9C9;
+}
+#divDraftHolder
+{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    border: solid 1px black;
+    height: 30px;
+    line-height: 30px;
+    background-color: gray;
+    text-align: center;
+    vertical-align: middle;
+}
+#divDraft
+{
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    width: 300px;
+    margin-left: -50px;
+    border: solid 1px black;
+    height: 70px;
+    line-height: 30px;
+    background-color: white;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.tlBar table tr td {
+    padding-left: 5px;
+}
+.btn,.btn1,.btn2,.btn3 {
+  background: #1B8383;
+  background-image: -webkit-linear-gradient(top, #1B8383, #156161);
+  background-image: -moz-linear-gradient(top, #1B8383, #156161);
+  background-image: -ms-linear-gradient(top, #1B8383, #156161);
+  background-image: -o-linear-gradient(top, #1B8383, #156161);
+  background-image: linear-gradient(to bottom, #1B8383, #156161);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 5px 10px 4px 10px;
+  text-decoration: none;
+    
+}
+
+.btn:hover,.btn1:hover,.btn2:hover,.btn3:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.menuTabs li
+{
+    background-color: white;
+}

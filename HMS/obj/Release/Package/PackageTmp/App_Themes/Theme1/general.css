@@ -1,0 +1,233 @@
+﻿body
+{
+    font-family: 'Play', 'Open Sans';
+    font-size: 15px;
+}
+
+.heading
+{
+    color: #2E9AFE;
+    font-weight: bold;
+}
+.bigHeading
+{
+    color: #2E9AFE;
+    font-weight: bold;
+    font-size: 20px;
+}
+.required {
+    color: red;
+}
+#uplButton {
+    text-align: center;
+}
+.fixedTop
+{
+    background-color: #2E9AFE;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
+    padding-left: 20px;
+}
+
+.mainContainer
+{
+    padding: 80px 9px 34px;
+    position: relative;
+    width: 952px;
+    margin: 0 auto auto auto;
+}
+
+.leftContainer
+{
+    float: left;
+    width: 636px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.rightContainer
+{
+    width: 300px;
+    float: left;
+    padding-left: 5px;
+    padding-top: 80px;
+}
+
+.searchBox
+{
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.header
+{
+    font-size: 33px;
+    color: White;
+}
+
+.rightHeading
+{
+    float: right;
+    position: relative;
+    top: 0px;
+    background-color: #77B900;
+    color: White;
+    padding: 10px;
+}
+
+.leftHeading
+{
+    float: left;
+    position: relative;
+    top: 0px;
+    background-color: #C27D4F;
+    color: White;
+    padding: 10px;
+}
+
+.heading1
+{
+    background-color: #77B900;
+    color: White;
+    padding: 10px;
+    display: inline;
+}
+
+.heading2
+{
+    background-color: #C27D4F;
+    color: White;
+    padding: 10px;
+    display: inline;
+}
+
+.txtBox
+{
+    border: 1px solid #BDC7D8;
+    font-family: Arial;
+}
+
+.btn1
+{
+    background-color: #2E9AFE;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border:none;
+}
+.btn2
+{
+    background-color: #77B900;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border:none;
+}
+
+a
+{
+    color: #2E9AFE;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.arialFont
+{
+    font-family: arial;
+    font-size: 12px;
+}
+
+.innerTabContent
+{
+    padding-top: 30px;
+}
+
+.questionIcon
+{
+    background-image: url('question.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 40px;
+}
+
+ul.tabs
+{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 32px;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    width: 100%;
+}
+
+    ul.tabs li
+    {
+        float: left;
+        margin: 0;
+        padding: 0;
+        height: 31px;
+        line-height: 31px;
+        border: 1px solid #999;
+        border-left: none;
+        margin-bottom: -1px;
+        background: #1BA1E2;
+        overflow: hidden;
+        position: relative;
+    }
+
+        ul.tabs li a
+        {
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 0 20px;
+            border: 1px solid #fff;
+            outline: none;
+            font-weight: bold;
+        }
+
+        ul.tabs li.active a
+        {
+            color: Black;
+            font-weight: bold;
+        }
+
+        ul.tabs li a:hover
+        {
+            background: #188FC9;
+        }
+
+html ul.tabs li.active, html ul.tabs li.active a:hover
+{
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    color: Black;
+}
+
+.tab_container
+{
+    /*border: 1px solid #999;*/
+    border-top: none;
+    clear: both;
+    float: left;
+    width: 100%;
+    background: #fff;
+    -moz-border-radius-bottomright: 5px;
+    -khtml-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -khtml-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+}
+
+.tab_content
+{
+    padding: 10px;
+}
