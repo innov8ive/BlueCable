@@ -88,6 +88,8 @@ namespace HMS.Transactions.Bill
                 objBills.ServiceTaxPerc = serviceTaxPerc;
                 objBills.Outstanding = Common.ToDecimal(dr["PreOutstanding"]);
                 objBills.NetBillAmount = total;
+                if (objBills.NetBillAmount == 0)
+                    objBills.PaymentDate = DateTime.Today;
                 objBillsBL.Data = objBills;
                 objBillsBL.Update();
                 Common.UpdateCustomerOutstanding(customerID);

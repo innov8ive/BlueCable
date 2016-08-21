@@ -66,10 +66,12 @@ and (@Active =-1 OR (C.IsActive=1 and @Active=1) OR (C.IsActive=0 and @Active=0)
            if (ddlCB.SelectedIndex > 0)
                query += " and exists(select 1 from CBArea where UserID=" + Common.ToInt(ddlCB.SelectedValue) + " and (CBArea.Area=C.Area OR C.Area=''))";
             CustomersDBList.Query = query;
+            DateTime dt = DateTime.Today;
+            DateTime startDate = new DateTime(dt.Year, dt.Month, 1);
             Hashtable hTable = new Hashtable();
             hTable["@OperatorID"] = objSetting.OperatorID;
-            hTable["@StartDate"] = DateTime.Today.AddMonths(-1);
-            hTable["@EndDate"] = DateTime.Today;
+            hTable["@StartDate"] = startDate;
+            hTable["@EndDate"] = DateTime.Today.AddDays(1);
             hTable["@ServiceProviderID"] = Common.ToInt(ddlMSO.SelectedValue);
             hTable["@Active"] = Common.ToInt(ddlActive.SelectedValue);
             CustomersDBList.Parameters = hTable;
@@ -83,7 +85,7 @@ and (@Active =-1 OR (C.IsActive=1 and @Active=1) OR (C.IsActive=0 and @Active=0)
             CustomersDBList.Columns.Add(new Column("Area", "Area Code", 100, "Area", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
             CustomersDBList.Columns.Add(new Column("Address", "Address", 150, "Address1", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
             CustomersDBList.Columns.Add(new Column("CANNo", "CAN No.", 90, "CANNo", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
-            CustomersDBList.Columns.Add(new Column("STBNo", "STB No.", 90, "STBNo", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
+            CustomersDBList.Columns.Add(new Column("STBNo", "STB No.", 120, "STBNo", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
             CustomersDBList.Columns.Add(new Column("SmartCardNo", "Smart Card No.", 100, "SmartCardNo", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
             CustomersDBList.Columns.Add(new Column("EmailID", "EmailID", 100, "C.EmailID", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
             CustomersDBList.Columns.Add(new Column("MSO", "MSO", 80, "ServiceProviders.Name", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));

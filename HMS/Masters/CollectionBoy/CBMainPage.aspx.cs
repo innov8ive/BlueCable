@@ -229,7 +229,8 @@ namespace HMS
         }
         private void BindArea()
         {
-            DataTable dt = Common.GetDBResult("select distinct Area from Customers where ISNULL(area,'')!='' Order By Area");
+            UserSetting objSetting = (UserSetting)Session["UserSetting"];
+            DataTable dt = Common.GetDBResult("select distinct Area from Customers where ISNULL(area,'')!='' and OperatorID=" + objSetting .OperatorID+ " Order By Area");
             chkAreaList.DataSource = dt;
             chkAreaList.DataTextField = "Area";
             chkAreaList.DataValueField = "Area";

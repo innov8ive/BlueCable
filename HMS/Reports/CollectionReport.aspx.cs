@@ -88,7 +88,7 @@ and (@CollectedBy =-1 OR COL.CollectedBy=@CollectedBy)";
             CustomersDBList.Columns.Add(new Column("Area", "Area Code", 100, "Area", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
             CustomersDBList.Columns.Add(new Column("Address", "Address", 150, "Address1", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
             CustomersDBList.Columns.Add(new Column("CANNo", "CAN No.", 90, "CANNo", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
-            CustomersDBList.Columns.Add(new Column("STBNo", "STB No.", 90, "STBNo", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
+            CustomersDBList.Columns.Add(new Column("STBNo", "STB No.", 120, "STBNo", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
             CustomersDBList.Columns.Add(new Column("SmartCardNo", "Smart Card No.", 90, "SmartCardNo", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
             CustomersDBList.Columns.Add(new Column("EmailID", "EmailID", 100, "C.EmailID", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));
             CustomersDBList.Columns.Add(new Column("MSO", "MSO", 80, "ServiceProviders.Name", HorizontalAlign.Left, HorizontalAlign.Center, String.Empty, true));

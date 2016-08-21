@@ -59,7 +59,7 @@ LB.CustomerID,LB.BillID,EmailID,ISNULL(FirstName,'')+' '+ISNULL(MiddleName,'')+'
 LandlineNo,MobileNo,B.Outstanding,PinCode,VW_Customers.Remarks,ServiceProviderID,SmartCardNo,State,STBMakeID,STBNo,
 VW_Customers.Outstanding as DueAmount,VW_Customers.CollectionBoy FROM VW_LatestBill LB inner join VW_Customers ON LB.CustomerID= VW_Customers.CustomerID 
 inner join Bills B ON B.BillID=LB.BillID
-where VW_Customers.Outstanding>0 and IsActive =1 and 
+where VW_Customers.Outstanding<>0 and IsActive =1 and 
 (
 UniqueID like '%'+@Name+'%'
 OR (ISNULL(FirstName,'')+' '+ISNULL(LastName,'')+' '+ISNULL(MiddleName,'') like '%'+@Name+'%')

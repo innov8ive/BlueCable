@@ -34,7 +34,10 @@
                                     <asp:DropDownList ID="ddlOutstanding" runat="server" CssClass="CTextBox" Width="100px">
                                         <asp:ListItem Text="(No Range)" Value="0,100000"></asp:ListItem>
                                         <asp:ListItem Text="0-500" Value="0,500"></asp:ListItem>
-                                        <asp:ListItem Text="0-1000" Value="0,1000"></asp:ListItem>
+                                        <asp:ListItem Text="500-1000" Value="500,1000"></asp:ListItem>
+                                        <asp:ListItem Text="1000-1500" Value="1000,1500"></asp:ListItem>
+                                        <asp:ListItem Text="1500-2000" Value="1500,2000"></asp:ListItem>
+                                         <asp:ListItem Text="0-1000" Value="0,1000"></asp:ListItem>
                                         <asp:ListItem Text="0-1500" Value="0,1500"></asp:ListItem>
                                         <asp:ListItem Text="0-2000" Value="0,2000"></asp:ListItem>
                                     </asp:DropDownList>
